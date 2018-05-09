@@ -4,7 +4,7 @@ require "sinatra/reloader"
 @@year = 2018
 
 get '/' do
-  erb :index
+  haml :index
 end
 
 get '/consigna' do
@@ -13,7 +13,7 @@ end
 
 get '/iterar' do
   @numeros = [1, 10, 100, 1000, 10000]
-  erb :iterar
+  haml :iterar
 end
 
 get '/contacto' do
