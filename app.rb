@@ -17,7 +17,7 @@ get '/iterar' do
 end
 
 get '/contacto' do
-  erb :contacto
+  haml :contacto
 end
 
 post '/contacto' do

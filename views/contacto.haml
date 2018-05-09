@@ -1,0 +1,7 @@
+%form{:action=>"/contacto", :method=> "post"}
+  %p Nombre:
+  %input.ml-2{:type=> "text", :name=> "nombre"}
+  .pt-3
+    %p Mensaje:
+    %textarea.ml-2{:name=>"mensaje", :row=>"4", :col=>"50"}
+  %input.mt-3{:type=>"submit", :value=>"Enviar"}
